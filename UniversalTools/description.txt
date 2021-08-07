@@ -1,0 +1,11 @@
+Universal Tools is a mod that adds a fusion of the Pickaxe, Hammer and Axe(Saw) from each set.
+
+Current additions:
+
+Copper/Tin HamSaxe: 1 Copper/Tin Pickaxe + 1 Copper/Tin Axe + 1 Copper/Tin Hammer
+
+Lead/Iron HamSaxe: 1 Lead/Iron Pickaxe + 1 Lead/Iron Axe + 1 Lead/Iron Hammer
+
+Message me on Discord for bugreports or any cool ideas you have for the HamSaxes:
+
+ǝɯɐuǝʞ#4166
