@@ -1,4 +1,4 @@
 displayName = [c/FF0000:Universal Tools]
 author = Kename_Fin
-version = 0.8
+version = 0.8.1
 homepage = https://github.com/DTATassius/Universal_HamSaxes
