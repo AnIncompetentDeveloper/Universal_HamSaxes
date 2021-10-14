@@ -40,6 +40,7 @@ namespace UniversalHamSaxes.Items
 				.AddIngredient(ItemID.CopperHammer)
 				.AddIngredient(ItemID.CopperPickaxe)
 				.AddIngredient(ItemID.CopperAxe)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
 				.Register();
 		}
 	}
