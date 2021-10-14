@@ -1,47 +1,49 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class CrimtaneMultiTool : ModItem
+  class ThePenultimateHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("It is I, the Fleshiest Fry!");
+      Tooltip.SetDefault("THE BEST TOOL, SECOND TO ONE!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 25;
+      Item.damage = 90;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 22;
-      Item.useAnimation = 22;
-      Item.pick = 70;
-      Item.axe = 15;
-      Item.hammer = 55;
+      Item.useTime = 10;
+      Item.useAnimation = 9;
+      Item.pick = 250;
+      Item.axe = 38;
+      Item.hammer = 170;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.Red;
+      Item.rare = ItemRarityID.Master;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
 
     public override void AddRecipes()
     {
+
       CreateRecipe()
-        .AddIngredient(ItemID.FleshGrinder)
-        .AddIngredient(ItemID.DeathbringerPickaxe)
-        .AddIngredient(ItemID.BloodLustCluster)
-        .AddTile(ModContent.TileType<EarlyMultiToolTable>())
+        .AddIngredient(ModContent.ItemType<SolarHamSaxe>())
+        .AddIngredient(ModContent.ItemType<StardustHamSaxe>())
+        .AddIngredient(ModContent.ItemType<NebulaHamSaxe>())
+        .AddIngredient(ItemID.LunarBar, 20)
+        .AddTile(TileID.LunarCraftingStation)
         .Register();
     }
   }

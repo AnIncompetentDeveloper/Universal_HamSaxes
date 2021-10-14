@@ -1,47 +1,46 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class PlatinumMultiTool : ModItem
+  class NebulaHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("PlatinumMultiTool!");
+      Tooltip.SetDefault("You feel magic energy pouring out of this tool, almost like it's trying to tell you something...");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 10;
+      Item.damage = 65;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 19;
-      Item.useAnimation = 19;
-      Item.pick = 59;
-      Item.axe = 12;
-      Item.hammer = 59;
+      Item.useTime = 12;
+      Item.useAnimation = 12;
+      Item.pick = 225;
+      Item.axe = 30;
+      Item.hammer = 100;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.Red;
+      Item.rare = ItemRarityID.Purple;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
 
     public override void AddRecipes()
     {
+
       CreateRecipe()
-        .AddIngredient(ItemID.PlatinumHammer)
-        .AddIngredient(ItemID.PlatinumAxe)
-        .AddIngredient(ItemID.PlatinumPickaxe)
-        .AddTile(ModContent.TileType<EarlyMultiToolTable>())
+        .AddIngredient(ItemID.NebulaPickaxe)
+        .AddIngredient(ItemID.LunarHamaxeNebula)
+        .AddTile(TileID.LunarCraftingStation)
         .Register();
     }
   }

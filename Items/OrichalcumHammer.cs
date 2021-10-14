@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
   class OrichalcumHammer : ModItem
   {

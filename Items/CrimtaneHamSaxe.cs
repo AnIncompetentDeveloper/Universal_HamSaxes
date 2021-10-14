@@ -1,32 +1,32 @@
-﻿using Terraria;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class IronMultiTool : ModItem
+  class CrimtaneHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("The Iron tool to rule them all!");
+      Tooltip.SetDefault("It is I, the Fleshiest Fry!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 8;
+      Item.damage = 25;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 20;
-      Item.useAnimation = 20;
-      Item.pick = 40;
-      Item.axe = 9;
-      Item.hammer = 40;
+      Item.useTime = 22;
+      Item.useAnimation = 22;
+      Item.pick = 70;
+      Item.axe = 15;
+      Item.hammer = 55;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
@@ -38,10 +38,10 @@ namespace UniversalMultiTools.Items
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ItemID.IronPickaxe)
-        .AddIngredient(ItemID.IronHammer)
-        .AddIngredient(ItemID.IronAxe)
-        .AddTile(ModContent.TileType<EarlyMultiToolTable>())
+        .AddIngredient(ItemID.FleshGrinder)
+        .AddIngredient(ItemID.DeathbringerPickaxe)
+        .AddIngredient(ItemID.BloodLustCluster)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
         .Register();
     }
   }

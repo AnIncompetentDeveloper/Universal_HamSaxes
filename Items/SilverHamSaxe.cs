@@ -1,46 +1,47 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class StardustMultiTool : ModItem
+  class SilverHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("The Dragons above made this over centuries, putting their very souls into this tool!");
+      Tooltip.SetDefault("The Copper tool to rule them all!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
-      Item.damage = 65;
+      base.SetDefaults();
+      Item.damage = 7;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 12;
-      Item.useAnimation = 11;
-      Item.pick = 225;
-      Item.axe = 30;
-      Item.hammer = 100;
+      Item.useTime = 19;
+      Item.useAnimation = 19;
+      Item.pick = 35;
+      Item.axe = 7;
+      Item.hammer = 35;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.Cyan;
+      Item.rare = ItemRarityID.Red;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
 
     public override void AddRecipes()
     {
-
       CreateRecipe()
-        .AddIngredient(ItemID.LunarHamaxeNebula, 1)
-        .AddIngredient(ItemID.StardustPickaxe, 1)
-        .AddTile(TileID.LunarCraftingStation)
-        .Register();
+        .AddIngredient(ItemID.SilverAxe, 1)
+        .AddIngredient(ItemID.SilverHammer, 1)
+        .AddIngredient(ItemID.SilverPickaxe, 1)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>());
     }
   }
 }

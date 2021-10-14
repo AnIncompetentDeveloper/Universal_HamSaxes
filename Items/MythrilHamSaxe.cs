@@ -1,24 +1,24 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class TitaniumMultiTool : ModItem
+  class MythrilHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("TitaniumMultiTool");
+      Tooltip.SetDefault("MythrilHamSaxe");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 50;
+      Item.damage = 45;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
@@ -37,11 +37,12 @@ namespace UniversalMultiTools.Items
 
     public override void AddRecipes()
     {
+
       CreateRecipe()
-        .AddRecipeGroup("UniversalMultiTools:Titanium Pickaxe or Drill")
-        .AddRecipeGroup("UniversalMultiTools:Titanium Axe or Saw")
-        .AddIngredient(ModContent.ItemType<TitaniumHammer>())
-        .AddTile(ModContent.TileType<LateMultiToolTable>())
+        .AddRecipeGroup("UniversalHamSaxes:Mythril Pickaxe or Drill")
+        .AddRecipeGroup("UniversalHamSaxes:Mythril Axe or Saw")
+        .AddIngredient(ModContent.ItemType<MythrilHammer>())
+        .AddTile(ModContent.TileType<LateHamSaxeTable>())
         .Register();
     }
   }

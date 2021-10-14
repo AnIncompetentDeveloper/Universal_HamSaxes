@@ -2,13 +2,13 @@ using Terraria.ModLoader;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
-using UniversalMultiTools.Items;
+using UniversalHamSaxes.Items;
 
-namespace UniversalMultiTools
+namespace UniversalHamSaxes
 {
-    public class UniversalMultiTools : Mod
+    public class UniversalHamSaxes : Mod
     {
-        public UniversalMultiTools()
+        public UniversalHamSaxes()
         {
         }
         public override void AddRecipeGroups()
@@ -21,7 +21,7 @@ namespace UniversalMultiTools
                 ItemID.ChlorophyteGreataxe,
                 ItemID.ChlorophyteChainsaw
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Chlorophyte Axe or Saw", CAWgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Chlorophyte Axe or Saw", CAWgroup);
 
 
             RecipeGroup AASgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Adamantite Axe or Saw", new int[]
@@ -29,7 +29,7 @@ namespace UniversalMultiTools
                 ItemID.AdamantiteChainsaw,
                 ItemID.AdamantiteWaraxe
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Adamantite Axe or Saw", AASgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Adamantite Axe or Saw", AASgroup);
 
 
             RecipeGroup ADPgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Adamantite Pickaxe or Drill", new int[]
@@ -37,7 +37,7 @@ namespace UniversalMultiTools
                 ItemID.AdamantiteDrill,
                 ItemID.AdamantitePickaxe
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Adamantite Pickaxe or Drill", ADPgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Adamantite Pickaxe or Drill", ADPgroup);
 
 
             RecipeGroup CDPgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Chlorophyte Pickaxe or Drill", new int[]
@@ -45,7 +45,7 @@ namespace UniversalMultiTools
                 ItemID.ChlorophyteDrill,
                 ItemID.ChlorophytePickaxe
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Chlorophyte Pickaxe or Drill", CDPgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Chlorophyte Pickaxe or Drill", CDPgroup);
 
 
             RecipeGroup MPDgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Mythril Pickaxe or Drill", new int[]
@@ -53,7 +53,7 @@ namespace UniversalMultiTools
                 ItemID.MythrilDrill,
                 ItemID.MythrilPickaxe
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Mythril Pickaxe or Drill", MPDgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Mythril Pickaxe or Drill", MPDgroup);
 
 
             RecipeGroup MCAgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Mythril Axe or Saw", new int[]
@@ -61,7 +61,7 @@ namespace UniversalMultiTools
                 ItemID.MythrilWaraxe,
                 ItemID.MythrilChainsaw
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Mythril Axe or Saw", MCAgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Mythril Axe or Saw", MCAgroup);
 
 
             RecipeGroup OWCgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Orichalcum Axe or Saw", new int[]
@@ -69,7 +69,7 @@ namespace UniversalMultiTools
                 ItemID.OrichalcumWaraxe,
                 ItemID.OrichalcumChainsaw
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Orichalcum Axe or Saw", OWCgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Orichalcum Axe or Saw", OWCgroup);
 
 
             RecipeGroup OPDAgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Orichalcum Pickaxe or Drill", new int[]
@@ -77,7 +77,7 @@ namespace UniversalMultiTools
                 ItemID.OrichalcumPickaxe,
                 ItemID.OrichalcumDrill
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Orichalcum Pickaxe or Drill", OPDAgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Orichalcum Pickaxe or Drill", OPDAgroup);
 
 
             RecipeGroup PPDgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Palladium Pickaxe or Drill", new int[]
@@ -85,7 +85,7 @@ namespace UniversalMultiTools
                 ItemID.PalladiumPickaxe,
                 ItemID.PalladiumDrill
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Palladium Pickaxe or Drill", PPDgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Palladium Pickaxe or Drill", PPDgroup);
 
 
             RecipeGroup PASgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Palladium Axe or Saw", new int[]
@@ -93,7 +93,7 @@ namespace UniversalMultiTools
                 ItemID.PalladiumWaraxe,
                 ItemID.PalladiumChainsaw
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Palladium Axe or Saw", PASgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Palladium Axe or Saw", PASgroup);
 
 
             RecipeGroup TASgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Titanium Axe or Saw", new int[]
@@ -101,7 +101,7 @@ namespace UniversalMultiTools
                 ItemID.TitaniumWaraxe,
                 ItemID.TitaniumChainsaw
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Titanium Axe or Saw", TASgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Titanium Axe or Saw", TASgroup);
 
 
             RecipeGroup TPDgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Titanium Pickaxe or Drill", new int[]
@@ -109,7 +109,7 @@ namespace UniversalMultiTools
                 ItemID.TitaniumPickaxe,
                 ItemID.TitaniumDrill
             });
-            RecipeGroup.RegisterGroup("UniversalMultiTools:Titanium Pickaxe or Drill", TPDgroup);
+            RecipeGroup.RegisterGroup("UniversalHamSaxes:Titanium Pickaxe or Drill", TPDgroup);
 
 
             RecipeGroup CPDgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Cobalt Pickaxe or Drill", new int[]
@@ -117,7 +117,7 @@ namespace UniversalMultiTools
 				ItemID.CobaltPickaxe,
 				ItemID.CobaltDrill
 			});
-			RecipeGroup.RegisterGroup("UniversalMultiTools:Cobalt Pickaxe or Drill", CPDgroup);
+			RecipeGroup.RegisterGroup("UniversalHamSaxes:Cobalt Pickaxe or Drill", CPDgroup);
 
 
 			RecipeGroup CASgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Cobalt Axe or Saw", new int[]
@@ -125,7 +125,7 @@ namespace UniversalMultiTools
 				ItemID.CobaltWaraxe,
 				ItemID.CobaltChainsaw
 			});
-			RecipeGroup.RegisterGroup("UniversalMultiTools:Cobalt Axe or Saw", CASgroup);
+			RecipeGroup.RegisterGroup("UniversalHamSaxes:Cobalt Axe or Saw", CASgroup);
 
 
 			RecipeGroup LMTgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Cobalt/Palladium Tool", new int[]
@@ -141,7 +141,7 @@ namespace UniversalMultiTools
 				ItemID.PalladiumDrill,
 				ItemID.PalladiumPickaxe
 			});
-			RecipeGroup.RegisterGroup("UniversalMultiTools:Cobalt/Palladium Tool", LMTgroup);
+			RecipeGroup.RegisterGroup("UniversalHamSaxes:Cobalt/Palladium Tool", LMTgroup);
 
 
 			RecipeGroup LMBgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Cobalt/Palladium Bar", new int[]
@@ -149,7 +149,7 @@ namespace UniversalMultiTools
 				ItemID.CobaltBar,
 				ItemID.PalladiumBar
 			});
-			RecipeGroup.RegisterGroup("UniversalMultiTools:Cobalt/Palladium Bar", LMBgroup);
+			RecipeGroup.RegisterGroup("UniversalHamSaxes:Cobalt/Palladium Bar", LMBgroup);
 
 
 			RecipeGroup EMTgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Copper/Tin Tool", new int[]
@@ -161,7 +161,7 @@ namespace UniversalMultiTools
 				ItemID.TinPickaxe,
 				ItemID.TinHammer
 			});
-			RecipeGroup.RegisterGroup("UniversalMultiTools:Copper/Tin Tool", EMTgroup);
+			RecipeGroup.RegisterGroup("UniversalHamSaxes:Copper/Tin Tool", EMTgroup);
 
 
 			RecipeGroup EMBgroup = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Copper/Tin Bar", new int[]
@@ -169,7 +169,7 @@ namespace UniversalMultiTools
 				ItemID.CopperBar,
 				ItemID.TinBar
 			});
-			RecipeGroup.RegisterGroup("UniversalMultiTools:Copper/Tin Bar", EMBgroup);
+			RecipeGroup.RegisterGroup("UniversalHamSaxes:Copper/Tin Bar", EMBgroup);
 
 
         }

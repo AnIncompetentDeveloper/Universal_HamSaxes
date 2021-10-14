@@ -1,32 +1,32 @@
-﻿using Terraria;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class TinMultiTool : ModItem
+  class DemoniteHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("The Tin tool to rule them all!");
+      Tooltip.SetDefault("The tool demons love most!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 5;
+      Item.damage = 25;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 21;
-      Item.useAnimation = 21;
-      Item.pick = 35;
-      Item.axe = 8;
-      Item.hammer = 35;
+      Item.useTime = 20;
+      Item.useAnimation = 20;
+      Item.pick = 65;
+      Item.axe = 15;
+      Item.hammer = 55;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
@@ -37,12 +37,14 @@ namespace UniversalMultiTools.Items
 
     public override void AddRecipes()
     {
+      
       CreateRecipe()
-        .AddIngredient(ItemID.TinHammer)
-        .AddIngredient(ItemID.TinAxe)
-        .AddIngredient(ItemID.TinPickaxe)
-        .AddTile(ModContent.TileType<EarlyMultiToolTable>())
+        .AddIngredient(ItemID.TheBreaker)
+        .AddIngredient(ItemID.NightmarePickaxe)
+        .AddIngredient(ItemID.WarAxeoftheNight)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
         .Register();
+
     }
   }
 }

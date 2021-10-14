@@ -3,13 +3,13 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items.Placeable
+namespace UniversalHamSaxes.Items.Placeable
 {
-    class EarlyMultiToolTable : ModItem
+    class EarlyHamSaxeTable : ModItem
     {
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("This be the MultiTool Crafting Machine.");
+			Tooltip.SetDefault("This be the HamSaxe Crafting Machine.");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
@@ -25,15 +25,15 @@ namespace UniversalMultiTools.Items.Placeable
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.consumable = true;
 			Item.value = 150;
-			Item.createTile = ModContent.TileType<Tiles.EarlyMultiToolTable>();
+			Item.createTile = ModContent.TileType<Tiles.EarlyHamSaxeTable>();
 		}
 
 		public override void AddRecipes()
 		{
 			CreateRecipe()
 				.AddIngredient(ItemID.WorkBench)
-				.AddRecipeGroup("UniversalMultiTools:Copper/Tin Tool")
-				.AddRecipeGroup("UniversalMultiTools:Copper/Tin Bar", 5)
+				.AddRecipeGroup("UniversalHamSaxes:Copper/Tin Tool")
+				.AddRecipeGroup("UniversalHamSaxes:Copper/Tin Bar", 5)
 				.AddTile(TileID.Anvils)
 				.Register();
 		}

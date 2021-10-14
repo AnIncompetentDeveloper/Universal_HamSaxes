@@ -1,48 +1,44 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class PalladiumMultiTool : ModItem
+  class VortexHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("PalladiumMultiTool");
+      Tooltip.SetDefault("Space and Time warp around this tool, almost as if it's existed for as long as the universe... perhaps even longer...!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
-      base.SetDefaults();
-      Item.damage = 40;
+      Item.damage = 65;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 25;
-      Item.useAnimation = 25;
-      Item.pick = 130;
-      Item.axe = 15;
-      Item.hammer = 75;
+      Item.useTime = 12;
+      Item.useAnimation = 11;
+      Item.pick = 225;
+      Item.axe = 30;
+      Item.hammer = 100;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.Red;
+      Item.rare = ItemRarityID.Green;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
 
     public override void AddRecipes()
     {
-
       CreateRecipe()
-        .AddRecipeGroup("UniversalMultiTools:Palladium Pickaxe or Drill")
-        .AddRecipeGroup("UniversalMultiTools:Palladium Axe or Saw")
-        .AddIngredient(ModContent.ItemType<PalladiumHammer>())
-        .AddTile(ModContent.TileType<LateMultiToolTable>())
+        .AddIngredient(ItemID.VortexPickaxe, 1)
+        .AddIngredient(ItemID.LunarHamaxeVortex, 1)
+        .AddTile(TileID.LunarCraftingStation)
         .Register();
     }
   }

@@ -1,36 +1,36 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class SpectreMultiTool : ModItem
+  class HellStoneHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("It's light... ethereal... it's almost like... it isn't there...");
+      Tooltip.SetDefault("Satan Approved!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 63;
+      Item.damage = 25;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 24;
-      Item.useAnimation = 24;
-      Item.pick = 200;
+      Item.useTime = 23;
+      Item.useAnimation = 23;
+      Item.pick = 100;
       Item.axe = 30;
-      Item.hammer = 90;
+      Item.hammer = 70;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.Blue;
+      Item.rare = ItemRarityID.Red;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
@@ -39,9 +39,9 @@ namespace UniversalMultiTools.Items
     {
 
       CreateRecipe()
-        .AddIngredient(ItemID.SpectrePickaxe, 1)
-        .AddIngredient(ItemID.SpectreHamaxe, 1)
-        .AddTile(ModContent.TileType<LateMultiToolTable>())
+        .AddIngredient(ItemID.MoltenHamaxe)
+        .AddIngredient(ItemID.MoltenPickaxe)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
         .Register();
     }
   }

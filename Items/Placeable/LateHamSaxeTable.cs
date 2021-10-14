@@ -3,13 +3,13 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items.Placeable
+namespace UniversalHamSaxes.Items.Placeable
 {
-	class LateMultiToolTable : ModItem
+	class LateHamSaxeTable : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("This be the MultiTool Crafting Machine but now, new and improved!");
+			Tooltip.SetDefault("This be the HamSaxe Crafting Machine but now, new and improved!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
@@ -25,15 +25,15 @@ namespace UniversalMultiTools.Items.Placeable
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.consumable = true;
 			Item.value = 150;
-			Item.createTile = ModContent.TileType<Tiles.LateMultiToolTable>();
+			Item.createTile = ModContent.TileType<Tiles.LateHamSaxeTable>();
 		}
 
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ModContent.ItemType<EarlyMultiToolTable>())
-				.AddRecipeGroup("UniversalMultiTools:Cobalt/Palladium Tool")
-				.AddRecipeGroup("UniversalMultiTools:Cobalt/Palladium Bar", 10)
+				.AddIngredient(ModContent.ItemType<EarlyHamSaxeTable>())
+				.AddRecipeGroup("UniversalHamSaxes:Cobalt/Palladium Tool")
+				.AddRecipeGroup("UniversalHamSaxes:Cobalt/Palladium Bar", 10)
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
 		}

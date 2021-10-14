@@ -1,47 +1,46 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class CobaltMultiTool : ModItem
+  class SolarHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("The Cobalt tool to rule them all!");
+      Tooltip.SetDefault("HamSaxe so bright it makes the sun jealous!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 35;
+      Item.damage = 65;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 25;
-      Item.useAnimation = 25;
-      Item.pick = 180;
-      Item.axe = 20;
-      Item.hammer = 80;
+      Item.useTime = 12;
+      Item.useAnimation = 11;
+      Item.pick = 225;
+      Item.axe = 30;
+      Item.hammer = 100;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.Red;
+      Item.rare = ItemRarityID.LightRed;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
 
     public override void AddRecipes()
     {
+
       CreateRecipe()
-        .AddRecipeGroup("UniversalMultiTools:Cobalt Pickaxe or Drill")
-        .AddRecipeGroup("UniversalMultiTools:Cobalt Axe or Saw")
-        .AddIngredient(ModContent.ItemType<CobaltHammer>(),1)
-        .AddTile(ModContent.TileType<LateMultiToolTable>())
+        .AddIngredient(ItemID.LunarHamaxeSolar, 1)
+        .AddIngredient(ItemID.SolarFlareAxe, 1)
+        .AddTile(TileID.LunarCraftingStation)
         .Register();
     }
   }

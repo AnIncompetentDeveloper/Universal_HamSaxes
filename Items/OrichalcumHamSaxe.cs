@@ -1,35 +1,36 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class SolarMultiTool : ModItem
+  class OrichalcumHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("MultiTool so bright it makes the sun jealous!");
+      Tooltip.SetDefault("OrichalcumHamSaxe!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 65;
+      Item.damage = 45;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 12;
-      Item.useAnimation = 11;
-      Item.pick = 225;
-      Item.axe = 30;
-      Item.hammer = 100;
+      Item.useTime = 25;
+      Item.useAnimation = 25;
+      Item.pick = 165;
+      Item.axe = 18;
+      Item.hammer = 80;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
-      Item.rare = ItemRarityID.LightRed;
+      Item.rare = ItemRarityID.Red;
       Item.UseSound = SoundID.Item1;
       Item.autoReuse = true;
     }
@@ -38,9 +39,10 @@ namespace UniversalMultiTools.Items
     {
 
       CreateRecipe()
-        .AddIngredient(ItemID.LunarHamaxeSolar, 1)
-        .AddIngredient(ItemID.SolarFlareAxe, 1)
-        .AddTile(TileID.LunarCraftingStation)
+        .AddRecipeGroup("UniversalHamSaxes:Orichalcum Pickaxe or Drill")
+        .AddRecipeGroup("UniversalHamSaxes:Orichalcum Axe or Saw")
+        .AddIngredient(ModContent.ItemType<OrichalcumHammer>())
+        .AddTile(ModContent.TileType<LateHamSaxeTable>())
         .Register();
     }
   }

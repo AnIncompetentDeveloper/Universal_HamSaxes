@@ -1,32 +1,32 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class GoldMultiTool : ModItem
+  class TungstenHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("The Golden tool even King Midas would want!");
+      Tooltip.SetDefault("The Tungsten tool to rule them all!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 10;
+      Item.damage = 8;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 20;
-      Item.useAnimation = 20;
-      Item.pick = 55;
+      Item.useTime = 21;
+      Item.useAnimation = 21;
+      Item.pick = 50;
       Item.axe = 11;
-      Item.hammer = 55;
+      Item.hammer = 50;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
@@ -38,10 +38,10 @@ namespace UniversalMultiTools.Items
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ItemID.GoldAxe)
-        .AddIngredient(ItemID.GoldPickaxe)
-        .AddIngredient(ItemID.GoldHammer)
-        .AddTile(ModContent.TileType<EarlyMultiToolTable>())
+        .AddIngredient(ItemID.TungstenPickaxe)
+        .AddIngredient(ItemID.TungstenHammer)
+        .AddIngredient(ItemID.TungstenAxe)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
         .Register();
     }
   }

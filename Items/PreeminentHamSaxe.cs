@@ -1,12 +1,12 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class PreeminentMultiTool : ModItem
+  class PreeminentHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
@@ -42,7 +42,7 @@ namespace UniversalMultiTools.Items
       //recipe.AddIngredient(ItemID.GoldAxe, 1);
       //recipe.AddIngredient(ItemID.GoldPickaxe, 1);
       //recipe.AddIngredient(ItemID.GoldHammer, 1);
-      //recipe.AddTile(ModContent.TileType<EarlyMultiToolTable>());
+      //recipe.AddTile(ModContent.TileType<EarlyHamSaxeTable>());
        // recipe.SetResult(this);
        // recipe.AddRecipe();
     //} 

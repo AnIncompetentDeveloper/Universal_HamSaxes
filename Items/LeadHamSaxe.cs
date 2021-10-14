@@ -1,32 +1,32 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class OrichalcumMultiTool : ModItem
+  class LeadHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("OrichalcumMultiTool!");
+      Tooltip.SetDefault("The Lead tool to rule them all!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 45;
+      Item.damage = 8;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 25;
-      Item.useAnimation = 25;
-      Item.pick = 165;
-      Item.axe = 18;
-      Item.hammer = 80;
+      Item.useTime = 19;
+      Item.useAnimation = 19;
+      Item.pick = 43;
+      Item.axe = 10;
+      Item.hammer = 43;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
@@ -37,12 +37,11 @@ namespace UniversalMultiTools.Items
 
     public override void AddRecipes()
     {
-
       CreateRecipe()
-        .AddRecipeGroup("UniversalMultiTools:Orichalcum Pickaxe or Drill")
-        .AddRecipeGroup("UniversalMultiTools:Orichalcum Axe or Saw")
-        .AddIngredient(ModContent.ItemType<OrichalcumHammer>())
-        .AddTile(ModContent.TileType<LateMultiToolTable>())
+        .AddIngredient(ItemID.LeadAxe)
+        .AddIngredient(ItemID.LeadHammer)
+        .AddIngredient(ItemID.LeadPickaxe)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
         .Register();
     }
   }

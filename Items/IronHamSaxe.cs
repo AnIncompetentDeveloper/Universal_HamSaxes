@@ -1,32 +1,32 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using UniversalMultiTools.Tiles;
+using UniversalHamSaxes.Tiles;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-  class AdamantiteMultiTool : ModItem
+  class IronHamSaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
       base.SetStaticDefaults();
-      Tooltip.SetDefault("The Adamantite tool to rule them all!");
+      Tooltip.SetDefault("The Iron tool to rule them all!");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
     public override void SetDefaults()
     {
       base.SetDefaults();
-      Item.damage = 45;
+      Item.damage = 8;
       Item.DamageType = DamageClass.Melee;
       Item.width = 40;
       Item.height = 40;
-      Item.useTime = 25;
-      Item.useAnimation = 25;
-      Item.pick = 180;
-      Item.axe = 20;
-      Item.hammer = 80;
+      Item.useTime = 20;
+      Item.useAnimation = 20;
+      Item.pick = 40;
+      Item.axe = 9;
+      Item.hammer = 40;
       Item.useStyle = ItemUseStyleID.Swing;
       Item.knockBack = 6;
       Item.value = 3000;
@@ -38,12 +38,11 @@ namespace UniversalMultiTools.Items
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ModContent.ItemType<AdamantiteHammer>(), 1)
-        .AddRecipeGroup("UniversalMultiTools:Adamantite Pickaxe or Drill")
-        .AddRecipeGroup("UniversalMultiTools:Adamantite Axe or Saw")
-        .AddTile(ModContent.TileType<LateMultiToolTable>())
+        .AddIngredient(ItemID.IronPickaxe)
+        .AddIngredient(ItemID.IronHammer)
+        .AddIngredient(ItemID.IronAxe)
+        .AddTile(ModContent.TileType<EarlyHamSaxeTable>())
         .Register();
-
     }
   }
 }

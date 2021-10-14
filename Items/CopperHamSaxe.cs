@@ -3,9 +3,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace UniversalMultiTools.Items
+namespace UniversalHamSaxes.Items
 {
-	class CopperMultiTool : ModItem
+	class CopperHamSaxe : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
