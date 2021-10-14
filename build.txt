@@ -1,4 +1,0 @@
-displayName = UniversalHamSaxes
-author = MunchyG
-version = 0.0.1
-homepage =
