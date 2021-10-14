@@ -1,6 +1,7 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
 
 namespace UniversalHamSaxes.Items.Placeable
 {
@@ -9,6 +10,7 @@ namespace UniversalHamSaxes.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			Tooltip.SetDefault("This be the HamSaxe Crafting Machine.");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
 		public override void SetDefaults()
@@ -35,6 +37,5 @@ namespace UniversalHamSaxes.Items.Placeable
 				.AddTile(TileID.Anvils)
 				.Register();
 		}
-
 	}
 }
