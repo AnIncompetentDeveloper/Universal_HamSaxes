@@ -1,4 +1,4 @@
-displayName = [c/FF0000:Universal Tools]
-author = Kename_Fin
-version = 0.8.78
-homepage = https://github.com/DTATassius/Universal_HamSaxes
+displayName = UniversalMultiTools
+author = MunchyG
+version = 0.0.1
+homepage =
