@@ -1,0 +1,120 @@
+[c/FF0000: Universal Tools] is a mod that adds a fusion of the Pickaxe/Drill, Hammer and Axe/Saw from each tool set. 
+
+Current additions: (Quick note: all hamsaxes are required to be bulit at a hamsaxe crafting station.)
+ 
+[c/ce6b08:Copper]/[c/cebb08:Tin] HamSaxe: 1 Copper/Tin Pickaxe + 1 Copper/Tin Axe + 1 Copper/Tin Hammer
+
+
+[c/6588b8:Lead]/[c/a7a982:Iron] HamSaxe: 1 Lead/Iron Pickaxe + 1 Lead/Iron Axe + 1 Lead/Iron Hammer
+
+
+[c/058900:Chlorophyte HamSaxe]: 1 Chlorophyte Warhammer + 1 Chlorophyte Pickaxe/Drill + 1 Chlorophyte Axe/Saw
+
+
+[c/df0000:Adamantite HamSaxe]: 1 Adamantite Hammer + 1 Adamantite Pickaxe/Drill + 1 Adamantite Waraxe/Saw
+
+[c/df0000:Adamantite Hammer]: 16 Adamantite bars @ Mythril/Orichalcum Anvil
+
+
+[c/005edf:Cobalt Hammer]: 16 Cobalt Bars @ Iron/Lead Anvil
+
+[c/005edf:Cobalt HamSaxe]: 1 Cobalt Hammer + 1 Cobalt Pickaxe/Drill + 1 Cobalt Waraxe/Saw
+
+
+[c/FF00F7: Orichalcum Hammer]: 16 Orichalcum Bars @ Mythril/Orichalcum Anvil
+
+[c/FF00F7: Orichalcum HamSaxe]: 1 Orichalcum Hammer + 1 Orichalcum Pickaxe/Drill + 1 Orichalcum Waraxe/Saw
+
+
+[c/FF0400: Crimtame HamSaxe]: 1 Flesh Grinder + 1 Deathbringer Pickaxe + 1 Blood Lust Cluster
+
+
+[c/AA00FF: Demonite HamSaxe]: 1 Nightmare Pickaxe + 1 The Breaker + 1 War Axe of the Night
+
+
+[c/DBCC00: Gold HamSaxe]/[c/FF8900: Platinum HamSaxe]:  Gold/Platinum Pickaxe + 1 Gold/Platinum Axe + 1 Gold/Plat Hammer
+
+
+[c/FF8900: Molten HamSaxe]: 1 Molten Pickaxe + 1 Molten Hamaxe
+
+
+[c/55DF21: Mythril Hammer]: 16 Mythril Bars @ Mythril/Orichalcum Anvil
+
+[c/55DF21: Mythril HamSaxe]: 1 Mythril Hammer + 1 Mythril Pickaxe/Drill + 1 Mythril Waraxe/Saw
+
+
+[c/C35BFA: Nebula HamSaxe]: 1 Nebula Hamaxe + 1 Nebula Pickaxe @ Ancient Manipulator
+
+[c/2470FC: Stardust HamSaxe]: 1 Stardust Hamaxe + 1 Stardust Pickaxe @ Ancient Manipulator
+
+[c/FF8500: Solar HamSaxe]: 1 Solar Hamaxe + 1 Solar Pickaxe @ Ancient Manipulator
+
+[c/20EB6D: Vortex HamSaxe]: 1 Vortex Hamaxe + 1 Vortex Pickaxe @ Ancient Manipulator
+
+
+[c/FC835A: Palladium Hammer]: 16 Palladium Bars @ Iron/Lead Anvil
+
+[c/FC835A: Palladium HamSaxe]: 1 Palladium Hammer + 1 Palladium Pickaxe/Drill + 1 Palladium Waraxe/Saw
+
+
+[c/2D8A88: Preeminent HamSaxe]: [c/000000: Currently Uncraftable]
+
+
+[c/848484: Silver HamSaxe]: 1 Silver Hammer + 1 Silver Pickaxe + 1 Silver Waraxe
+
+
+[c/40EEEA: Spectre HamSaxe]: 1 Spectre Hamaxe + 1 Spectre Pickaxe
+
+
+[c/000000: The Penultimate HamSaxe]: 1 Vortex HamSaxe + 1 Solar HamSaxe + 1 Stardust HamSaxe + 1 Nebula HamSaxe + 20 Luminite Bars @ Ancient Manipulator
+
+
+[c/D3D3D3: Titanium Hammer]: 16 Titanium Bars @ Mythril/Orichalcum Anvil
+
+[c/D3D3D3: Titanium HamSaxe]: 1 Titanium Hammer + 1 Titanium Pickaxe/Drill + 1 Titanium Waraxe/Saw
+
+
+[c/7BC055: Tungsten HamSaxe]: 1 Tungsten Hammer + 1 Tungsten Pickaxe + 1 Tungsten Waraxe
+
+
+[c/9C6E24: PreHardmode HamSaxe Crafting Table]: 1 Copper/Tin HamSaxe + 5 Copper/Tin Bars
+
+[c/9C6E24: Hardmode HamSaxe Crafting Table]: 1 Cobalt/Palladium HamSaxe + 10 Cobalt/Palladium Bars
+
+
+(All the items may not look nice or even be statted 100% correctly)
+
+
+Message me on Discord for Bug-Reports or any cool ideas you have for the HamSaxes: ǝɯɐuǝʞ4166
+
+
+Credits:
+
+Polarities Mod for letting me use their cobalt, adamantite, orichalcum, titanium and palladium hammer models
+
+
+==== Patch Notes ====
+
+V 0.8.90 : Can now TOGGLE hammer mode on hamsaxes with right click when holding the tool. Starts with both hammer pick and axe enabled. Tools also statted correctly (hopefully)!
+
+V 0.8.83 : Fixed some incorrect stating for Hardmode ore HamSaxes
+
+V 0.8.82 : Mod should now be able to be extractable from the tModLoader mod browser
+
+V 0.8.81 : Small bug fixes, loading time improvements, comments on code if someone decides to look at it, slight texture update on most hamsaxes.
+
+V 0.8.78 : Loading times improved + Icon Update
+
+V 0.8.77 : Bug Fixes, tooltip fixes
+
+V 0.8.76 : Bug Fixes
+
+V 0.8.75 : Tables implemented with... I guess you can call them "Textures" but they're rudimentary and crude at best. This is how you will make all HamSaxes from now on, if you don't like this please leave a comment on the workshop page or message me on discord.
+
+V 0.8.3 : Working on Crafting Station for HamSaxes, there will be a PreHardmode crafting station and a Hardmode crafting station and (eventually) a lunar crafting station. Prehardmode and Hardmode crafting stations are in the game and obtainable but currently have zero function and a template texture
+
+V 0.8 : Mod Updated to 1.4, posted to workshop and 1.3 version production ceased
+
+V 0.7.5 : Tools statted """correctly""", sprites not done and working on the final two items
+
+V 0.5 : Tools officially done, not statted correctly and sprites not done
