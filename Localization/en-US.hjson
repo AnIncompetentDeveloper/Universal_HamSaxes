@@ -1,0 +1,198 @@
+
+Mods: {
+	UniversalHamSaxes: {
+		Items: {
+			Placeable: {
+				AncientHamsaxeTable: {
+					DisplayName: Ancient Hamsaxe Table
+					Tooltip: Ye old Hamsaxe Table of legend...
+				}
+				ImprovedHamsaxeTable: {
+					DisplayName: Improved Hamsaxe Table
+					Tooltip: This be the HamSaxe Crafting Machine but now, new and improved!
+				}
+				HamsaxeTable: {
+					DisplayName: Hamsaxe Table
+					Tooltip: This be the HamSaxe Crafting Machine.
+				}
+
+
+			}
+			AdamantiteHammer: {
+				DisplayName: Adamantite Hammer
+				Tooltip: A hammer made from the strongest materials known on this planet!
+			}
+
+			AdamantiteHamSaxe: {
+				DisplayName: Adamantite Ham Saxe
+				Tooltip: The Adamantite tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			ChlorophyteHamSaxe: {
+				DisplayName: Chlorophyte Ham Saxe
+				Tooltip: The Chlorophyte tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			CobaltHammer: {
+				DisplayName: Cobalt Hammer
+				Tooltip: A really boring hammer... but blue!
+			}
+
+			CobaltHamSaxe: {
+				DisplayName: Cobalt Ham Saxe
+				Tooltip: The Cobalt tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			CopperHamSaxe: {
+				DisplayName: Copper Ham Saxe
+				Tooltip: The Copper tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			EndOfDawn: {
+				DisplayName: End Of Dawn
+				Tooltip: The tool demons love most! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			FleshSeeker: {
+				DisplayName: Flesh Seeker
+				Tooltip: It is I, the Fleshiest Fry! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			GoldHamSaxe: {
+				DisplayName: Gold Ham Saxe
+				Tooltip: The Golden tool even King Midas would want! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			IronHamSaxe: {
+				DisplayName: Iron Ham Saxe
+				Tooltip: The Iron tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			LeadHamSaxe: {
+				DisplayName: Lead Ham Saxe
+				Tooltip: The Lead tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			MoltenHamSaxe: {
+				DisplayName: Molten Ham Saxe
+				Tooltip: Satan Approved! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			MythrilHammer: {
+				DisplayName: Mythril Hammer
+				Tooltip: A hammer made from the finest of Dwarven materials!
+			}
+
+			MythrilHamSaxe: {
+				DisplayName: Mythril Ham Saxe
+				Tooltip: A tool Dwarves used to carve Moria. | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			NebulaHamSaxe: {
+				DisplayName: Nebula Ham Saxe
+				Tooltip: You feel magic energy pouring out of this tool, almost like it's trying to tell you something... | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			OrichalcumHammer: {
+				DisplayName: Orichalcum Hammer
+				Tooltip: A hammer made from made from the most valuable material only second to Gold!
+			}
+
+			OrichalcumHamSaxe: {
+				DisplayName: Orichalcum Ham Saxe
+				Tooltip: A nice pink! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			PalladiumHammer: {
+				DisplayName: Palladium Hammer
+				Tooltip: A really boring hammer... but red!
+			}
+
+			PalladiumHamSaxe: {
+				DisplayName: Palladium Ham Saxe
+				Tooltip: This tool will ruin the economy. | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			PearlwoodAxe: {
+				DisplayName: Pearlwood Axe
+				Tooltip: Pearlwood Axe
+			}
+
+			PearlwoodHamSaxe: {
+				DisplayName: Pearlwood Ham Saxe
+				Tooltip: It's 20% cooler! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			PearlwoodPickaxe: {
+				DisplayName: Pearlwood Pickaxe
+				Tooltip: Pearlwood Pickaxe
+			}
+
+			PlatinumHamSaxe: {
+				DisplayName: Platinum Ham Saxe
+				Tooltip: Made from the rarest of materials! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			PreeminentHamSaxe: {
+				DisplayName: Preeminent Ham Saxe
+				Tooltip: God wishes He could have this tool. . . | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			SilverHamSaxe: {
+				DisplayName: Silver Ham Saxe
+				Tooltip: The Silver tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			SolarHamSaxe: {
+				DisplayName: Solar Ham Saxe
+				Tooltip: HamSaxe so bright it makes the sun jealous! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			SpectreHamSaxe: {
+				DisplayName: Spectre Ham Saxe
+				Tooltip: It's light... ethereal... it's almost like... it isn't there... | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			StardustHamSaxe: {
+				DisplayName: Stardust Ham Saxe
+				Tooltip: The Dragons above made this over centuries, putting their very souls into this tool! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			ThePenultimateHamSaxe: {
+				DisplayName: The Penultimate Ham Saxe
+				Tooltip: The best tool; originating from the moon! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			TinHamSaxe: {
+				DisplayName: Tin Ham Saxe
+				Tooltip: The Tin tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			TitaniumHammer: {
+				DisplayName: Titanium Hammer
+				Tooltip: A hammer made from the strongest material known to man! (At the time it was discovered)
+			}
+
+			TitaniumHamSaxe: {
+				DisplayName: Titanium Ham Saxe
+				Tooltip: Made from the hardest of materials! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			TungstenHamSaxe: {
+				DisplayName: Tungsten Ham Saxe
+				Tooltip: The Tungsten tool to rule them all! | Rightclick while holding tool to toggle Hammermode.
+			}
+
+			VortexHamSaxe: {
+				DisplayName: Vortex Ham Saxe
+				Tooltip: Space and Time warp around this tool, almost as if it's existed for as long as the universe... perhaps even longer...! | Rightclick while holding tool to toggle Hammermode.
+			}
+		}
+
+		Tiles: {
+			AncientHamsaxeTable.MapEntry: Ancient Hamsaxe Table
+			HamsaxeTable.MapEntry: Hamsaxe Table
+			ImprovedHamsaxeTable.MapEntry: Improved Hamsaxe Table
+		}
+	}
+}
