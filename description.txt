@@ -98,7 +98,7 @@ Thanks to Misty for making amazing textures for the mod : https://steamcommunity
 
 ==== Patch Notes ====
 
-V 0.9.7.X : 1.4.4 Compatability + minor fixes
+V 0.9.7.X : 1.4.4 Compatability + minor fixes + terraria hates me apparently + small texture updates + removed calamity hamsaxes until later date + small texture updates again + price changes
 
 V 0.9.6.X : Added Modded Hamsaxes for Calamity mod, added new Hamsaxe table "Ancient Hamsaxe Table" it even has an animation! Some new textures added. Textures for Calamity hamsaxes are... a WIP. Updated to modern documentation.
 
