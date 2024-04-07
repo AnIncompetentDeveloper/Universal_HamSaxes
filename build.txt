@@ -1,5 +1,5 @@
-displayName = [c/6f00d1:Universal ]
+displayName = Universal Tools
 author = Kename_Fin
-version = 0.9.7.1
+version = 0.9.7.14
 homepage = https://github.com/DTATassius/Universal_HamSaxes
 includeSource = true
